@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="Main-text">FEDEX</div>
+      <div class="Bg-logo">
+        <div class="Ellipse-1"></div>
+        <div class="Ellipse-3"></div>
+        <div class="Ellipse-2"></div>
+      </div>
+      <div class="Header-content">
+        <div class="Header-text">
+          <ul>
+            <li>FEDEX & TNT SERVICE</li>
+            <li>+ CUSTOMS BROKER</li>
+            <li>AGENCY “MEB"</li>
+            <li>KHARKOV TEL: 057-7801294</li>
+            <li>093-0660678</li>
+            <li>096-0660678</li>
+          </ul>
+        </div>
+        <div class="Header-image">
+        </div>
+      </div>
+    </header>
+
+    <div><h2 class="showcase__title">Services</h2></div>
+    <div class='container-1'>
+      <div class="ism-slider" data-interval="10000" id="my-slider">
+        <ol>
+          <li>
+            <img src="img/slider.jpg">
+            <div class="ism-caption ism-caption-1" data-delay='100'>Агенція МЕВ
+              - представництво де є можливість оформити товарно супровідні
+              документи міжнародних експрес відправлень для здійснення доставки
+              у більш ніж 200 країн та територій Світу.<br>...<br>FedEx
+              Corporation — американская компания, предоставляющая почтовые,
+              курьерские и другие услуги логистики по всему миру.</div>
+          </li>
+          <li>
+            <img src="img/slder.jpg">
+            <div class="ism-caption ism-caption-1" data-delay='100'>Агенція МЕВ
+              - має агентські угоди з представниками перевізників основних
+              всесвітні брендів, що дозволяє пропонувати клієнтам постіні
+              знижки.<br>...<br>ТНТ Экспресс — одна из крупнейших компаний
+              международной индустрии экспресс-доставки документов, посылок и
+              корпоративных грузов.</div>
+          </li>
+        </ol>
+      </div>
+      <div class="showcase">
+        <div class="showcase__market">
+          <p class="cost__info">
+            <h2 class="market__title">Відстеження відправлення FedEx</h2>
+          </p>
+          <div class="search_box-1">
+            <div class="input_search_box"><input id="number" size="50"
+                name="number"
+                placeholder="Номер накладної" required="" type="text" required
+                class="input_search">
+            </div>
+            <button class="search_button" onclick="var
+              input=document.getElementById('number').value;
+              location.href='https://www.fedex.com/fedextrack/?action=track&trackingnumber='+input+'&cntry_code=ru&locale=ru_ru.html'">Відстежити</button>
+          </div>
+        </div>
+        <div class="showcase__market">
+          <p class="cost__info">
+            <h2 class="market__title">Відстеження відправлення TNT</h2>
+          </p>
+          <div class="search_box-2">
+            <div class="input_search_box"><input id="number" size="50"
+                name="number"
+                placeholder="Номер накладної" required="" type="text" required
+                class="input_search">
+            </div>
+            <button class="search_button" onclick="var
+              input=document.getElementById('number').value;
+              location.href='https://www.tnt.com/express/ru_ua/site/shipping-tools/tracking.html?searchType=CON&cons='+input">Відстежити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+
+    <footer>
+      <div style="width: 100%;position: relative;">
+        <div class="container">
+          <div class="footer-bottom">
+            <div class="main--text_bottom">
+              <ul class="ul_bottom">
+                <li>FEDEX & TNT SERVICE</li>
+                <li>+ МИТНИЙ БРОКЕР</li>
+                <li>"АГЕНЦІЯ МЕВ"</li>
+                <li>ХАРКІВ</li>
+              </ul>
+            </div>
+          </div>
+            <div class="bottom-contact-list">
+              <ul class="bottom-contact">
+                <li>
+                  <a class="bottom-text" href="tel:+380930660678">+380930660678</a>
+                  <img class="bottom-text-image" src="img/phone.svg" alt="" />
+                </li>
+                <li>
+                  <a class="bottom-text" href="mailto:e-mail@GMAIL.COM">e-mail@GMAIL.COM</a>
+                  <img class="bottom-text-image" src="img/mail.svg" alt=""/>
+                </li>
+                <li>
+                  <a class="bottom-text" href="viber://chat?number=%2B380960660678" title="Viber">+380930660678</a>
+                  <img class="bottom-text-image" src="img/viber.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <div class="cover">
+              <form id="contactform" style="width: 100%; margin-left: 20px;">
+                <p class="contact"><label for="name" style="font-style: normal;font-weight: bold;font-family: monospace;text-shadow: 2px 2px 4px rgb(0 0 0 / 25%);">TEXT US</label></p>
+                <input class="input" id="name" name="name" placeholder="Имя" required="" tabindex="1" type="text" required>
+                <input class="input" id="email" name="email" placeholder="E-mail" required="" tabindex="2" type="email" required>
+                <textarea class="input" name="comment" id="comment" placeholder="Большое поле" tabindex="4" required></textarea>
+                <button class="input">Отправить</button>
+              </form>
+            </div>
+        </div>
+        <svg viewBox="-29 -297 2510 1142" class="footer-bg">
+          <linearGradient id="gradient">
+            <stop offset="0%" stop-color="rgba(234, 126, 0, 0.4)"></stop>
+            <stop offset="100%" stop-color="#ea7e00"></stop>
+          </linearGradient>
+          <path id="pi" d="M 0 0 
+          C -110 -296 387 45 400 -100 
+          C 443 -421 665 -64 808.504 -168.14 
+          C 933 -257 1185 -382 1153 -217 
+          C 1116 -53 1197 -25 1422 -18 
+          C 1593 -20 1053 -361 1813 -243 
+          C 2004 -215 1681 -58 2207 -58 
+          C 2469 -53 1978 441 2377 258 
+          C 2578 137 2472 761 2198 735 
+          C 1915 696 1755 520 1744 789 
+          C 1739 1004 1647 510 1106 765 
+          C 986 835 1014 445 722 768 
+          C 578 939 244 714 430 761 
+          C 615 802 564 413 84 826 
+          C 17 879 -76 779 -2 631 
+          C 200 300 -100 500 100 200 
+          C 199 75 32 70 0 00" fill="url(#gradient)"/>
+        </svg>
+      </div>
+    </footer>
+    <div id="map" class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.3522158173005!2d36.23155521568072!3d49.98600567941394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f46a68bf79%3A0xd1a3ba879d99e58c!2zOVYsINC_0LXRgC4g0KLRgNC-0LjRhtC60LjQuSwgOdCSLCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjEwMDA!5e0!3m2!1sru!2sua!4v1645275787721!5m2!1sru!2sua" width="95%" height="400" style="margin: 2.2%; border: 1px; border-style: solid; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </body>
+</html>
